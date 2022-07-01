@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.restapp.fragments.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_newUserRegister"
+            app:destination="@id/newUserRegister" />
+        <action
+            android:id="@+id/action_homePage_to_menu"
+            app:destination="@id/menu" />
+        <action
+            android:id="@+id/action_homePage_to_test"
+            app:destination="@id/test" />
+    </fragment>
+    <fragment
+        android:id="@+id/newUserRegister"
+        android:name="com.example.restapp.fragments.NewUserRegister"
+        android:label="NewUserRegister"
+        tools:layout="@layout/fragment_new_user_register" />
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.restapp.fragments.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/test"
+        android:name="com.example.restapp.test"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
+</navigation>

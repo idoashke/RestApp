@@ -1,0 +1,9 @@
+RestApp Schema :
+
+User - email(key), firstName, lastName, dateOfBirth, city, address, phone, password
+
+Admin - email(key), firstName, lastName, password
+
+Business - name(key), city, address
+
+dish - id(key), name, category, description, price, image
