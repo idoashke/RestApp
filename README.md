@@ -1,8 +1,11 @@
 # RestApp
 
 Programing languages:
+
 Kotlin (Client-Side) with Android Studio
+
 Java (Server-Side) with Eclipse
+
 SQL (Database) with MySql
 
 
