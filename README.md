@@ -9,7 +9,7 @@ SQL (Database) with MySql
 
 Some screenshots from the application:
 
-User screens:
+User screens
 
 ![user_login_screen](https://user-images.githubusercontent.com/70009636/176907543-c649eb2e-1bf6-4814-8a8c-31f5806c9d28.png)
 ![user_signup_screen](https://user-images.githubusercontent.com/70009636/176907566-7f6890af-c5b1-4071-8a70-d395a35d8f01.png)
@@ -19,7 +19,7 @@ User screens:
 ![cart_screen](https://user-images.githubusercontent.com/70009636/176907698-b8b2d112-6805-4296-b565-64d49afad9ba.png)
 
 
-Admin screens:
+Admin screens
 
 ![admin_login_screen](https://user-images.githubusercontent.com/70009636/176907818-816e71e5-5024-41e5-88ff-0e9e9cc9622d.png)
 ![admin_home_screen](https://user-images.githubusercontent.com/70009636/176907834-8fd6ad18-86bc-4a06-9331-f537534bcffc.png)
